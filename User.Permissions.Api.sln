@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User.Permissions.Domain", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User.Permissions.Infrastructure", "User.Permissions.Infrastructure\User.Permissions.Infrastructure.csproj", "{3E85208F-0A2D-4467-97D0-CB2CC2AD2A19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User.Permissions.Application", "Application\User.Permissions.Application.csproj", "{6BF3B0E0-5B30-4DEF-ADE0-8E2045D6DD3B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User.Permissions.Application", "User.Permissions.Application\User.Permissions.Application.csproj", "{6BF3B0E0-5B30-4DEF-ADE0-8E2045D6DD3B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User.Permissions.Tests", "User.Permissions.Test\User.Permissions.Tests.csproj", "{81288773-05A6-4CDB-BE48-9FC39A149F00}"
 EndProject
