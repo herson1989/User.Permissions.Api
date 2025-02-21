@@ -10,9 +10,9 @@ namespace User.Permissions.Application.Permissions.GetAll
     public class GetAllPermissionsQueryHandler : IRequestHandler<GetAllPermissionsQuery, IEnumerable<GetAllPermissionsQueryResponse>>
     {
         private readonly IGetAllPermissionsUseCase _getAllPermissionsUseCase;
-        private readonly ILogger<CreatePermissionCommandHandler> _logger;
+        private readonly ILogger<GetAllPermissionsQueryHandler> _logger;
 
-        public GetAllPermissionsQueryHandler(IGetAllPermissionsUseCase getAllPermissionsUseCase, ILogger<CreatePermissionCommandHandler> logger)
+        public GetAllPermissionsQueryHandler(IGetAllPermissionsUseCase getAllPermissionsUseCase, ILogger<GetAllPermissionsQueryHandler> logger)
         {
             _getAllPermissionsUseCase = getAllPermissionsUseCase;
             _logger = logger;
