@@ -17,6 +17,11 @@ namespace User.Permissions.Api.Controllers
             _mediator = mediator;
         }
 
+        /// <summary>
+        /// Permite crear un permiso para un usuario.
+        /// </summary>
+        /// <param name="createPermissionCommand"></param>
+        /// <returns></returns>
         [HttpPost]
         public async Task<IActionResult> CreatePermission([FromBody] CreatePermissionCommand createPermissionCommand)
         {
@@ -27,6 +32,11 @@ namespace User.Permissions.Api.Controllers
             return BadRequest(result.Message);
         }
 
+        /// <summary>
+        /// Permite actualizar permisos.
+        /// </summary>
+        /// <param name="updatePermissionCommand"></param>
+        /// <returns></returns>
         [HttpPut]
         public async Task<IActionResult> UpdatePermission([FromBody] UpdatePermissionCommand updatePermissionCommand)
         {
@@ -37,6 +47,10 @@ namespace User.Permissions.Api.Controllers
             return BadRequest(result.Message);
         }
 
+        /// <summary>
+        /// Permite consultar todos los permisos creados.
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public async Task<IActionResult> GetPermissions()
         {

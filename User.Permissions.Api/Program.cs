@@ -1,8 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using Microsoft.OpenApi.Models;
 using Serilog;
-using Swashbuckle.AspNetCore.Filters;
-using System.Reflection;
 using User.Permissions.Api.Extensions;
 using User.Permissions.Infrastructure.Persistence;
 
